@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column; /* Added to center items vertically */
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the text color to white */
+  }
+
+  #transcriptionContainer {
+    text-align: right;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 100px; /* Adjust the font size as needed */
+    margin-bottom: 20px; /* Add some margin below the title */
+  }
+
+  label {
+    margin-right: 10px;
+  }
+
+  input {
+    width: 400px;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: whitesmoke; /* Set the background color of the input field to red */
+    color: white; /* Set the text color of the input field to white */
+  }
+
+  button {
+    padding: 5px 10px;
+  }
+
+  .red-text {
+    color: red; /* Set the color of the span with class "red-text" to red */
+  }

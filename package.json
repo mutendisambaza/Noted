@@ -1,0 +1,17 @@
+{
+  "name": "assignment5",
+  "version": "1.0.0",
+  "description": "A5",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "author": "Mutendi Sambaza",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "sqlite3": "^5.1.6"
+  }
+}
